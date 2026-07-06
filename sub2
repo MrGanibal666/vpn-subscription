@@ -1,0 +1,440 @@
+"outbounds": [
+  {
+    "tag": "urltest",
+    "protocol": "urltest",
+    "settings": {
+      "outbounds": [
+        "hy-funvideo-hh",
+        "vless-polka",
+        "hy-shazam",
+        "trojan-ignite",
+        "hy-funvideo-nl",
+        "vless-perekrestok",
+        "vless-yandex",
+        "grpc-funvideo",
+        "ws-vpn47",
+        "grpc-primary"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": 300
+    }
+  },
+
+  {
+    "tag": "hy-funvideo-hh",
+    "protocol": "hysteria",
+    "settings": {
+      "address": "hh.funvideorus.net",
+      "port": 443,
+      "version": 2
+    },
+    "streamSettings": {
+      "network": "hysteria",
+      "security": "tls",
+      "tlsSettings": {
+        "allowInsecure": false,
+        "serverName": "hh.funvideorus.net"
+      },
+      "hysteriaSettings": {
+        "version": 2,
+        "auth": "2d167f8d-529b-41b8-bc0a-a01d402d9fb9"
+      },
+      "finalmask": {
+        "udp": [],
+        "quicParams": {
+          "congestion": "brutal",
+          "brutalUp": "100mbps",
+          "brutalDown": "100mbps"
+        }
+      }
+    },
+    "mux": {
+      "enabled": false
+    }
+  },
+
+  {
+    "tag": "vless-polka",
+    "protocol": "vless",
+    "settings": {
+      "vnext": [
+        {
+          "address": "polka.funvideorus.net",
+          "port": 443,
+          "users": [
+            {
+              "id": "2d167f8d-529b-41b8-bc0a-a01d402d9fb9",
+              "email": "t@t.tt",
+              "security": "auto",
+              "encryption": "none",
+              "flow": "xtls-rprx-vision"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "raw",
+      "security": "reality",
+      "realitySettings": {
+        "serverName": "deepl.com",
+        "fingerprint": "qq",
+        "show": false,
+        "publicKey": "vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8",
+        "shortId": "15affa0af66dfc79",
+        "spiderX": "",
+        "mldsa65Verify": ""
+      }
+    },
+    "mux": {
+      "enabled": false
+    }
+  }
+,
+{
+  "tag": "hy-shazam",
+  "protocol": "hysteria",
+  "settings": {
+    "address": "ush2.shazamri.xyz",
+    "port": 443,
+    "version": 2
+  },
+  "streamSettings": {
+    "network": "hysteria",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": false,
+      "serverName": "ush2.shazamri.xyz"
+    },
+    "hysteriaSettings": {
+      "version": 2,
+      "auth": "2d167f8d-529b-41b8-bc0a-a01d402d9fb9"
+    },
+    "finalmask": {
+      "udp": [],
+      "quicParams": {
+        "congestion": "brutal",
+        "brutalUp": "100mbps",
+        "brutalDown": "100mbps"
+      }
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+
+{
+  "tag": "trojan-ignite",
+  "protocol": "trojan",
+  "settings": {
+    "servers": [
+      {
+        "address": "8.6.112.0",
+        "method": "chacha20",
+        "ota": false,
+        "password": "humanity",
+        "port": 443,
+        "level": 1
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": false,
+      "serverName": "www.ignitelimit.com"
+    },
+    "wsSettings": {
+      "path": "/assignment",
+      "host": "www.ignitelimit.com"
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+
+{
+  "tag": "hy-funvideo-nl",
+  "protocol": "hysteria",
+  "settings": {
+    "address": "nlns.funvideorus.net",
+    "port": 443,
+    "version": 2
+  },
+  "streamSettings": {
+    "network": "hysteria",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": false,
+      "serverName": "nlns.funvideorus.net"
+    },
+    "hysteriaSettings": {
+      "version": 2,
+      "auth": "2d167f8d-529b-41b8-bc0a-a01d402d9fb9"
+    },
+    "finalmask": {
+      "udp": [],
+      "quicParams": {
+        "congestion": "brutal",
+        "brutalUp": "100mbps",
+        "brutalDown": "100mbps"
+      }
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+{
+  "tag": "vless-perekrestok",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "78.159.245.45",
+        "port": 25565,
+        "users": [
+          {
+            "id": "72edcaa1-685e-4022-9576-273746529e1f",
+            "email": "t@t.tt",
+            "security": "auto",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "raw",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "img.perekrestok.ru",
+      "fingerprint": "firefox",
+      "show": false,
+      "publicKey": "Pw1EUU1hud5uvtfySGyGy5vV38bYIiQzDx-cDQoAdk0",
+      "shortId": "a5bd715847213387",
+      "spiderX": "",
+      "mldsa65Verify": ""
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+}
+,
+{
+  "tag": "vless-yandex",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "78.159.250.189",
+        "port": 1111,
+        "users": [
+          {
+            "id": "72edcaa1-685e-4022-9576-273746529e1f",
+            "email": "t@t.tt",
+            "security": "auto",
+            "encryption": "none",
+            "flow": "xtls-rprx-vision"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "raw",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "api-maps.yandex.ru",
+      "fingerprint": "firefox",
+      "show": false,
+      "publicKey": "YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA",
+      "shortId": "",
+      "spiderX": "",
+      "mldsa65Verify": ""
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+
+{
+  "tag": "grpc-funvideo",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "grpnl.funvideorus.net",
+        "port": 443,
+        "users": [
+          {
+            "id": "2d167f8d-529b-41b8-bc0a-a01d402d9fb9",
+            "email": "t@t.tt",
+            "security": "auto",
+            "encryption": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "grpc",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "google.com",
+      "fingerprint": "safari",
+      "show": false,
+      "publicKey": "vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8",
+      "shortId": "15affa0af66dfc79",
+      "spiderX": "",
+      "mldsa65Verify": ""
+    },
+    "grpcSettings": {
+      "serviceName": "",
+      "multiMode": false,
+      "idle_timeout": 60,
+      "health_check_timeout": 20,
+      "permit_without_stream": false,
+      "initial_windows_size": 0
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+
+{
+  "tag": "ws-vpn47",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "66.81.247.91",
+        "port": 443,
+        "users": [
+          {
+            "id": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "email": "t@t.tt",
+            "security": "auto",
+            "encryption": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+      "allowInsecure": false,
+      "serverName": "vpn47.cc.cd",
+      "fingerprint": "chrome"
+    },
+    "wsSettings": {
+      "path": "/",
+      "host": "vpn47.cc.cd"
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+
+{
+  "tag": "grpc-primary",
+  "protocol": "vless",
+  "settings": {
+    "vnext": [
+      {
+        "address": "95.85.233.181",
+        "port": 443,
+        "users": [
+          {
+            "id": "e0bb3250-1873-4b9d-b9b5-7aa6c863885f",
+            "email": "t@t.tt",
+            "security": "auto",
+            "encryption": "none"
+          }
+        ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "grpc",
+    "security": "reality",
+    "realitySettings": {
+      "serverName": "c.primarymaster.online",
+      "fingerprint": "firefox",
+      "show": false,
+      "publicKey": "S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y",
+      "shortId": "c56c3ba3b9f676c5",
+      "spiderX": "",
+      "mldsa65Verify": ""
+    },
+    "grpcSettings": {
+      "serviceName": "",
+      "multiMode": false,
+      "idle_timeout": 60,
+      "health_check_timeout": 20,
+      "permit_without_stream": false,
+      "initial_windows_size": 0
+    }
+  },
+  "mux": {
+    "enabled": false
+  }
+},
+
+{
+  "tag": "direct",
+  "protocol": "freedom"
+},
+
+{
+  "tag": "block",
+  "protocol": "blackhole"
+}
+"routing": {
+  "domainStrategy": "AsIs",
+  "rules": [
+    {
+      "type": "field",
+      "outboundTag": "block",
+      "domain": [
+        "geosite:category-ads-all"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "direct",
+      "ip": [
+        "geoip:private"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "direct",
+      "domain": [
+        "geosite:private"
+      ]
+    },
+    {
+      "type": "field",
+      "inboundTag": [
+        "dns-module"
+      ],
+      "outboundTag": "urltest"
+    },
+    {
+      "type": "field",
+      "port": "0-65535",
+      "outboundTag": "urltest"
+    }
+  ]
+}
